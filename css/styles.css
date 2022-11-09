@@ -11394,17 +11394,6 @@ p {
     margin-right: 0;
   }
 }
-header.about {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
-  text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/about/buddy-buddy.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  background-size: cover;
-}
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
@@ -11414,7 +11403,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  background-size: cover;
+  background-size: fill;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -11432,10 +11421,6 @@ header.masthead .masthead-heading {
 }
 
 @media (min-width: 768px) {
-  header.about {
-    padding-top: 30rem;
-    padding-bottom: 5rem;
-  }
   header.masthead {
     padding-top: 17rem;
     padding-bottom: 12.5rem;
@@ -11496,7 +11481,6 @@ header.masthead .masthead-heading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
